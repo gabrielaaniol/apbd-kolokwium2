@@ -9,7 +9,7 @@ builder.Services.AddControllers();
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddScoped<ITree, Tree>();
+//builder.Services.AddScoped<ITree, Tree>();
 
 var app = builder.Build();
 

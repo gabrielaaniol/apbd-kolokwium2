@@ -2,6 +2,7 @@
 
 public class Seedling_Batch
 {
+    public object Tree_Species;
     public int BatchId { get; set; }
     public int NurseryId { get; set; }
     public int SpeciesId { get; set; }

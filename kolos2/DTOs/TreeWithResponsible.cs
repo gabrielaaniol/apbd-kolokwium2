@@ -9,4 +9,5 @@ public class TreeWithResponsible
     public DateTime HireDate { get; set; }
     
     public List<ResponsibleDto> Responsibles { get; set; } = new();
+    public IEnumerable<ResponsibleDto> Seedling_Batch { get; set; }
 }

@@ -6,6 +6,6 @@ public class Employee
     public string FirstName { get; set; }
     public string LastName { get; set; }
     public DateTime HireDate { get; set; }
-    
-    ICollection<Responsible> Responsibles { get; set; } = new List<Responsible>();
+
+    public ICollection<Responsible> Responsibles { get; set; } = new List<Responsible>();
 }

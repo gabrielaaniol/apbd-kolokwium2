@@ -7,4 +7,5 @@ public class Nursery
     public DateTime EstablishedDate { get; set; }
     
     ICollection<Seedling_Batch> Seedling_Batches { get; set; } = new List<Seedling_Batch>();
+    public IEnumerable<Seedling_Batch>? Seedlings { get; set; }
 }
