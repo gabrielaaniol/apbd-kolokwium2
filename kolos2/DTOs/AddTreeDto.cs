@@ -4,8 +4,9 @@ public class AddTreeDto
 {
     //do przyjmowania drzew POST
     
-    public string LatinName { get; set; }
-    public int GrowthTimeInYears { get; set; }
+    public string FirstName { get; set; }
+    public string LastName { get; set; }
+    public DateTime HireDate { get; set; }
 
-    private List<SchoolInfoDto> SchoolInfos { get; set; } = new();
+    private List<ResponsibleDto> SchoolInfos { get; set; } = new();
 }

@@ -1,14 +1,11 @@
 ﻿namespace kolos2.DTOs;
 
-public class TreeSchoolDto
+public class ResponsibleDto
 {
-    //lista w TreeSchool i AddTree
-    public int SpeciesId { get; set; }
-    public string LatinName { get; set; }
-    public int GrowthTimeInYears { get; set; }
-    
+    //odpowoedzi z GET
     public int BatchId { get; set; }
     public int NurseryId { get; set; }
+    public int SpeciesId { get; set; }
     public int Quantity { get; set; }
     public DateTime SownDate { get; set; }
     public DateTime ReadyDate { get; set; }
